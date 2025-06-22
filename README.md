@@ -3,7 +3,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-@lukaszzielinski2003-black?logo=github)](https://github.com/lukaszzielinski2003)
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/lukaszzielinski2003/python-cli-projects)](https://github.com/lukaszzielinski2003/python-cli-projects/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/lukaszzielinski2003/python-cli-projects)](https://github.com/lukaszzielinski2003/python-cli-projects/commits/master)
 
 A collection of simple command-line Python applications created for learning and practice purposes.  
 Each project is self-contained in its own folder and includes a `README.md` with usage instructions.
