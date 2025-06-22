@@ -1,36 +1,40 @@
-# CLI ToDoList
+# 📝 CLI ToDoList
 
-A simple command-line interface (CLI) to-do list manager written in Python. It allows you to add, remove, and view tasks, with persistent storage in a JSON file.
+A simple **command-line to-do list manager** written in Python.  
+Allows you to add, remove, and view tasks with persistent storage in a JSON file.
 
-## Features
+---
+
+## ✅ Features
 
 - Add tasks
-
 - Remove tasks
-
 - View all tasks
+- Save and load tasks from `tasks.json`
 
-- Save and load tasks from tasks.json
+---
 
-## How to run
+## 🛠️ How to Run
 
 1. Clone the repo or download the files.
-
-2. Make sure you have Python 3 installed.
-
+2. Make sure you have **Python 3.10+** installed.
 3. Run the program:
 
 ```bash
 python main.py
 ```
 
-# Usage
+---
 
-- Follow on-screen prompts to add, remove, or view tasks. Tasks are stored in tasks.json in the project directory.
+## 🕹️ Usage
 
-- To exit, choose option 4 or press Ctrl+C.
+- Follow on-screen prompts to add, remove, or view tasks.
+- Tasks are stored in `tasks.json` in the project directory.
+- To exit, choose option `4` or press `Ctrl + C`.
 
-## Sample
+---
+
+## 🧪 Sample
 
 ```
 ==============
@@ -46,6 +50,9 @@ Enter your task: gym
 Task added successfully
 ```
 
-# License
+---
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🧾 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.

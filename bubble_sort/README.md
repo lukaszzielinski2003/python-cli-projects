@@ -1,8 +1,10 @@
-# CLI Bubble Sort
+# 🧮 CLI Bubble Sort
 
-A simple and interactive command-line tool for sorting lists using the Bubble Sort algorithm.
+A simple and interactive **command-line tool** for sorting lists using the Bubble Sort algorithm.
 
-## Features
+---
+
+## ✨ Features
 
 - Sorts lists of numbers in:
   - Ascending order
@@ -10,37 +12,36 @@ A simple and interactive command-line tool for sorting lists using the Bubble So
 - Clean and intuitive CLI menu
 - Input validation and user-friendly error messages
 - Handles keyboard interruption (`Ctrl + C`)
-- Shows step-by-step progress of the sorting process (educational)
+- Shows step-by-step sorting progress (educational)
 
-## How to run
+---
+
+## 🛠️ How to Run
 
 1. Clone the repo or download the files.
-
-2. Make sure you have Python 3.9+ installed.
-
+2. Make sure you have **Python 3.10+** installed.
 3. Run the program:
 
 ```bash
 python main.py
 ```
 
-## Usage
+---
+
+## 🕹️ Usage
 
 1. Choose a sorting option:
-
-   - 1 for ascending order
-
-   - 2 for descending order
-
-   - 3 to exit
-
+   - `1` for ascending order
+   - `2` for descending order
+   - `3` to exit
 2. Enter a list of numbers separated by spaces.
+3. Watch the step-by-step sorting process and final result.
 
-3. View the sorting process and the final sorted list.
+---
 
-## Sample
+## 🧪 Sample
 
-```
+```text
 +=====================================+
 |           CLI Bubble Sort           |
 +-------------------------------------+
@@ -63,6 +64,9 @@ Loop: 3, [1, 2, 3, 4]
 Final sorted list: [1, 2, 3, 4]
 ```
 
-# License
+---
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🧾 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.

@@ -1,43 +1,44 @@
-# CLI Unit Converter
+# 🔁 CLI Unit Converter
 
-A simple and interactive command-line tool for converting units.
+A simple and interactive **command-line tool for converting units**.
 
-## Features
+---
+
+## ✨ Features
 
 - Convert between:
-  - Kilometers and Miles.
-  - Miles and Kilometers.
-  - Kilograms and Pounds.
-  - Pounds and Kilograms.
-- Clean CLI menu.
-- Input validation and user-friendly error messages.
-- Handles keyboard interruption ("Ctrl + C")
+  - Kilometers ↔️ Miles
+  - Kilograms ↔️ Pounds
+- Clean CLI menu
+- Input validation and user-friendly error messages
+- Handles keyboard interruption (`Ctrl + C`)
 
-## How to run
+---
+
+## 🛠️ How to Run
 
 1. Clone the repo or download the files.
-
-2. Make sure you have Python 3 installed.
-
+2. Make sure you have **Python 3.10+** installed.
 3. Run the program:
 
 ```bash
 python main.py
 ```
 
-## Usage
+---
 
-1. Choose the type of conversion by entering a number from 1 to 5.
+## 🕹️ Usage
 
-2. Enter the value you want to convert.
+1. Choose the type of conversion by entering a number from **1 to 5**
+2. Enter the value you want to convert
+3. View the result
+4. Repeat or choose option **5** to exit
 
-3. View the result.
+---
 
-4. Repeat the process or choose option 5 to exit.
+## 🧪 Sample
 
-## Sample
-
-```
+```text
 +----------------+
 | Unit Converter |
 +----------------+
@@ -52,6 +53,9 @@ Enter the number in kilometers: 10
 Result: 6.22 miles
 ```
 
-# License
+---
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🧾 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.

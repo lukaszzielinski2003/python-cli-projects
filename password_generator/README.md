@@ -1,38 +1,44 @@
-# CLI Password Generator
+# 🔐 CLI Password Generator
 
-This is a simple command-line program written in Python that helps you create random passwords.
+A simple **command-line tool** written in Python to generate secure random passwords.
 
-## Features
+---
 
-- Choose if you want lowercase letters, uppercase letters, numbers, and special characters in your password.
+## ✨ Features
 
-- Set the length of the password.
+- Choose character types:
+  - Lowercase letters
+  - Uppercase letters
+  - Numbers
+  - Special characters
+- Set the desired password length
+- Simple interactive CLI menu
 
-- Easy to use with a simple menu.
+---
 
-## How to run
+## 🛠️ How to Run
 
 1. Clone the repo or download the files.
-
-2. Make sure you have Python 3 installed.
-
+2. Make sure you have **Python 3.10+** installed.
 3. Run the program:
 
 ```bash
 python main.py
 ```
 
-# Usage
+---
 
-- You will be asked which types of characters you want to include in your password.
+## 🕹️ Usage
 
-- Next, the program will prompt you to enter the desired password length.
+- Select which character types to include in your password.
+- Enter the desired password length.
+- The program will generate a random, secure password based on your choices.
 
-- After that, a secure random password will be generated and displayed based on your choices.
+---
 
-## Sample
+## 🧪 Sample
 
-```
+```text
 +--------------------------------+
 |       PASSWORD GENERATOR       |
 +--------------------------------+
@@ -48,6 +54,9 @@ Enter number of characters: 16
 Your password: jWKsJE9UcWRyPf$V
 ```
 
-# License
+---
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## 🧾 License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for details.
