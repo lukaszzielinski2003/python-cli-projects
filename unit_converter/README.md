@@ -30,10 +30,10 @@ python main.py
 
 ## 🕹️ Usage
 
-1. Choose the type of conversion by entering a number from **1 to 5**
+1. Choose the type of conversion by entering a number from **1 to 7**
 2. Enter the value you want to convert
 3. View the result
-4. Repeat or choose option **5** to exit
+4. Repeat or choose option **7** to exit
 
 ---
 
@@ -47,7 +47,9 @@ python main.py
 | 2. Miles to Km |
 | 3. Kg to Lbs   |
 | 4. Lbs to Kg   |
-| 5. Exit        |
+| 5. °C to °F    |
+| 6. °F to °C    |
+| 7. Exit        |
 +----------------+
 Select operation: 1
 Enter the number in kilometers: 10
