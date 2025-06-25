@@ -9,7 +9,9 @@ def menu() -> None:
     print("| 2. Miles to Km |")
     print("| 3. Kg to Lbs   |")
     print("| 4. Lbs to Kg   |")
-    print("| 5. Exit        |")
+    print("| 5. °C to °F    |")
+    print("| 6. °F to °C    |")
+    print("| 7. Exit        |")
     print("+----------------+")
 
 

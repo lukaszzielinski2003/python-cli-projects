@@ -9,6 +9,7 @@ A simple and interactive **command-line tool for converting units**.
 - Convert between:
   - Kilometers ↔️ Miles
   - Kilograms ↔️ Pounds
+  - Celsius ↔️ Fahrenheit
 - Clean CLI menu
 - Input validation and user-friendly error messages
 - Handles keyboard interruption (`Ctrl + C`)
