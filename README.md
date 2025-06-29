@@ -20,6 +20,7 @@ Each project is self-contained in its own folder and includes a `README.md` with
 | ➗ [Calculator](./calculator)                 | Command-line calculator supporting basic arithmetic operations and input checking.                         |
 | 🎮 [Turn-Based Battle](./turn_based_battle)   | Text-based battle simulator with player/enemy turns and hit point logic.                                   |
 | 🔐 [Password Generator](./password_generator) | Generates secure random passwords based on user-selected options.                                          |
+| 🍅 [Pomodoro](./pomodoro/)                    | A simple CLI Pomodoro timer that helps you stay focused using structured work and break sessions.          |
 
 ---
 
