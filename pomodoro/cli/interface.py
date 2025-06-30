@@ -1,9 +1,12 @@
-import os
+import os # Import os for clearing the terminal.
 
 
 class Interface:
     @staticmethod
     def show_banner() -> None:
+        """
+        Displays the Pomodoro timer banner.
+        """
         print("+" + "-" * 38 + "+")
         print(f"|   {'🍅 Pomodoro Timer 🍅':^30}   |")
         print("+" + "-" * 38 + "+")
@@ -12,10 +15,16 @@ class Interface:
 
     @staticmethod
     def clear_terminal() -> None:
-        os.system("cls" if os.name == "nt" else "clear")
+        """
+        Clears the terminal screen in a cross-platform way.
+        """
+        os.system("cls" if os.name == "nt" else "clear")  # "cls" for windows, "clear" for linux/macos
 
     @staticmethod
     def show_info() -> None:
+        """
+        Shows an introduction to the Pomodoro Technique.
+        """
         print(
             "The 🍅 Pomodoro Technique 🍅 is a time management method that helps you stay focused and productive."
         )
@@ -28,6 +37,12 @@ class Interface:
 
     @staticmethod
     def handle_user_input() -> int:
+        """
+        Prompts the user for how many Pomodoro sets they want to run.
+
+        Returns:
+            int: Number of Pomodoro sets to run
+        """
         while True:
             user_input = input(
                 "How many Pomodoro sets would you like to do? (or 'q' to quit): "
@@ -46,5 +61,8 @@ class Interface:
 
     @staticmethod
     def refresh_screen():
+        """
+        Clears the screen and shows the banner.
+        """
         Interface.clear_terminal()
         Interface.show_banner()
